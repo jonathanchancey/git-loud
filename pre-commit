@@ -1,0 +1,19 @@
+#!/usr/bin/env python 
+
+from playsound import playsound
+import argparse
+import os
+
+
+def parse_args():
+  pass
+
+def main(args=None):
+  pass
+
+if __name__ == "__main__":
+  print("git-loud")
+  # print(os.listdir("./sounds/hey.wav"))
+  playsound('./git-loud/sounds/hey.wav')
+  args = parse_args()
+  main(args)
